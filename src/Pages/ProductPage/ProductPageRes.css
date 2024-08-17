@@ -1,0 +1,29 @@
+@media( max-width : 540px ) {
+
+    .catagories ul li {
+font-size: 14px;
+    }
+    .Allproducts {
+        grid-column-gap: 4px;
+        grid-row-gap: 10px;
+        padding-right: 0px;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+ 
+  .productContainer {
+    width: 40%;
+  }
+
+    .productItem img {
+        height: 100px;
+        width: 100%;
+    }
+    .productItem {
+        width: 80%;
+        height: 205px;
+    }
+    .catagory, .name, .product-price, .discount {
+        font-size: 9px;
+        margin-left: 15px;
+    }
+}
